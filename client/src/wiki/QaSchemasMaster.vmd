@@ -1,0 +1,27 @@
+<template>
+<div class="q-markdown">
+<!-- The empty line below this is important on all vmd components -->
+
+S4 QA update schemas_master.cfg Wiki Page
+===========================================
+
+::: warning
+It is now recommended to use the website page to update this. <router-link to="/batchschemaconfig">Schema config page here.</router-link>
+
+:::
+
+The subfolder should be the same as the process you are changing
+
+**--SUBFOLDER--**  
+/u05/s4qa/transmit/{ANYSUBFOLDER}/
+
+**--FILENAME--**  
+schemas.cfg
+
+**--Can only have one line--**  
+EXAMPLE:  
+cat /u05/s4qa/transmit/bt_inputs/schemas.cfg  
+bt_inputs|utmay s4qap2
+
+</div>
+</template>

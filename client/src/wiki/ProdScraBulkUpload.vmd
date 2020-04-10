@@ -1,0 +1,16 @@
+<template>
+<div class="q-markdown">
+<!-- The empty line below this is important on all vmd components -->
+
+S4 SCRA Bulk Upload Landing Wiki Page
+=====================================
+
+**--SUBFOLDER--**  
+/scra_bulk_upload/
+
+**--FILES--**  
+scra_input.csv  
+switch.dat
+
+</div>
+</template>

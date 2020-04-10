@@ -1,0 +1,17 @@
+<template>
+<div class="q-markdown">
+<!-- The empty line below this is important on all vmd components -->
+
+S4 RCLI Landing Wiki Page
+=========================
+
+**\--SUBFOLDER--**  
+/rcli/
+
+**\--FILES--**  
+switch.dat  
+s4\_bank\_invitation.csv  
+s4\_rcli\_oil\_strategy.csv
+
+</div>
+</template>

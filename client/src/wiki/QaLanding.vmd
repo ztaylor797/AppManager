@@ -1,0 +1,26 @@
+<template>
+<div class="q-markdown">
+<!-- The empty line below this is important on all vmd components -->
+
+S4 QA Landing Wiki Page
+=======================
+
+**(PROCESSING DATE)** xlla9583:/u05/s4qa/data/control/processing_date.dat  
+**(DROP LOCATION)** xlla9583:/u05/s4qa/transmit  
+**(AUTOSYS JOB)** s4qa_process_switches
+
+<!-- Don't use built in wiki links! Use router-link to preserve SPA behavior. -->
+*   <router-link to="/wiki/QaLanding/QaSchemasMaster">Update Schema Master</router-link>
+*   <router-link to="/wiki/QaLanding/QaBT">BT</router-link>
+*   <router-link to="/wiki/QaLanding/QaProcessBtPricing">BT Pricing</router-link>
+*   <router-link to="/wiki/QaLanding/QaNBS">NBS</router-link>
+*   <router-link to="/wiki/QaLanding/QaLateFeeLikelihood">LateFeeLikelihood</router-link>
+*   <router-link to="/wiki/QaLanding/QaRcli">RCLI</router-link>
+*   <router-link to="/wiki/QaLanding/QaScraBulkUpload">Scra Bulk Upload</router-link>
+*   <router-link to="/wiki/QaLanding/QaSysprinAgent">SysprinAgent</router-link>
+*   <router-link to="/wiki/QaLanding/QaSysprin">Sysprin</router-link>
+*   <router-link to="/wiki/QaLanding/QaProcessRuleDataForceStartBox">Start Process Rule Data Box</router-link>
+*   <router-link to="/wiki/QaLanding/QaProcessRPI">ProcessRPI</router-link>
+
+</div>
+</template>

@@ -1,0 +1,16 @@
+<template>
+<div class="q-markdown">
+<!-- The empty line below this is important on all vmd components -->
+
+S4 NBS Landing Wiki Page (Currently only setup for srs)
+=======================================================
+
+**--SUBFOLDER--**  
+/nbs_inputs/$PORTFOLIO/
+
+**--FILES--**  
+nbs_offer_details.dat  
+trigger.trg
+
+</div>
+</template>

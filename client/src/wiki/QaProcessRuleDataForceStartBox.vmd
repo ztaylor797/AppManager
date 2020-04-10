@@ -1,0 +1,16 @@
+<template>
+<div class="q-markdown">
+<!-- The empty line below this is important on all vmd components -->
+
+S4 Force Start Process Rule Box Landing Wiki Page
+=================================================
+
+**--SUBFOLDER--**  
+/rule_data_automation/
+
+**--FILES--**  
+(Starts s4qa_box_daily_rule_data)  
+force_start_daily.trg
+
+</div>
+</template>

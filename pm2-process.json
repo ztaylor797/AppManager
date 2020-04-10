@@ -1,0 +1,20 @@
+{
+    "listen_timeout": 5000,
+    "script": "server/server.js",
+    "watch": true,
+    "ignore_watch": [
+        "logs",
+        "node_modules",
+        ".git",
+        "client"
+    ],
+    "watch_options": {
+        "followSymlinks": false
+    },
+    "exp_backoff_restart_delay": 1000,
+    "restart_delay": 1000,
+    "name": "s4_manager_server",
+    "error_file": "/u01/home/unit/s4_manager_home/logs/server.log",
+    "out_file": "/u01/home/unit/s4_manager_home/logs/server.log",
+    "log_date_format": "YYYY-MM-DD HH:mm:SS"
+}

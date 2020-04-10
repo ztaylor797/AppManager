@@ -1,0 +1,20 @@
+<template>
+<div class="q-markdown">
+<!-- The empty line below this is important on all vmd components -->
+
+S4 Prod Landing Wiki Page
+=========================
+
+**(PROCESSING DATE)** xcla9565:/u05/prod/data/control/processing_date.dat  
+**(DROP LOCATION)** xlla9583:/u05/prod/transmit10  
+**(AUTOSYS JOB)** prod_com_process_switches10_9583
+
+<!-- Don't use built in wiki links! Use router-link to preserve SPA behavior. -->
+*   <router-link to="/wiki/ProdLanding/ProdBT">BT</router-link>
+*   <router-link to="/wiki/ProdLanding/ProdRcli">RCLI</router-link>
+*   <router-link to="/wiki/ProdLanding/ProdScraBulkUpload">SCRA Bulk Upload</router-link>
+*   <router-link to="/wiki/ProdLanding/ProdSysprin">Sysprin</router-link>
+*   <router-link to="/wiki/ProdLanding/ProdSysprinAgent">Sysprin_Agent Instructions</router-link>
+
+</div>
+</template>

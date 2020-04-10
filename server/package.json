@@ -1,0 +1,36 @@
+{
+  "name": "s4_manager_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ccsi_304_s4@acxiom.com",
+  "license": "ISC",
+  "dependencies": {
+    "@moebius/http-graceful-shutdown": "^1.1.0",
+    "await-exec": "^0.1.2",
+    "body-parser": "^1.19.0",
+    "compare-versions": "^3.6.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "nodemailer": "^6.4.10",
+    "oracledb": "^4.2.0",
+    "perf_hooks": "0.0.1",
+    "replace-in-file": "^5.0.2",
+    "socket.io": "^2.3.0",
+    "socketio-auth": "^0.1.1",
+    "sqlite3": "^4.1.1",
+    "tableify": "^1.1.0",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "why-is-node-running": "^2.1.2"
+  }
+}

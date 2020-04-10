@@ -1,0 +1,31 @@
+<template>
+<div class="q-markdown">
+<!-- The empty line below this is important on all vmd components -->
+
+S4 BT Landing Wiki Page
+=======================
+
+**--SUBFOLDER--**  
+/bt_calendar/$PORTFOLIO/
+
+**--FILES--**  
+bt_calendar.csv  
+switch.dat
+
+**--SUBFOLDER--**  
+/bt_inputs/$PORTFOLIO/
+
+**--FILES--**  
+**(These start s4qa_box_process_bt_inputs_$PORTFOLIO_direct once the files are transferred and detected)**  
+s4_bt_process_${YEAR}_${MONTH}.trg  
+assignment_${YEAR}_${MONTH}.xls*  
+promo_details_${YEAR}_${MONTH}.xls*  
+pricing_details_${YEAR}_${MONTH}.xls*  
+bucket*.txt  
+switch.dat  
+  
+**(This force starts s4qa_com_validate_bt_monthly_$PORTFOLIO)**  
+balcon_prod.txt
+
+</div>
+</template>

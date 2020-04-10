@@ -1,0 +1,19 @@
+{
+  "name": "s4_manager",
+  "version": "1.0.0",
+  "description": "Replacement for old 8080 jvm website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon --watch server server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.acxiom.com:7999/ccsi_s4/acxioms4manager.git"
+  },
+  "author": "ccsi_304_s4@acxiom.com",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

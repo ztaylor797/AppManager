@@ -1,0 +1,17 @@
+<template>
+<div class="q-markdown">
+<!-- The empty line below this is important on all vmd components -->
+
+S4 LateFee Likelihood Landing Wiki Page
+=======================================
+
+**--SUBFOLDER--**  
+/latefee_likelihood_accts/
+
+**--FILES--**  
+(Starts s4qa_com_load_lf_likelihood_accts_adhoc)  
+lf_likely_accts_$PROCESSING_DATE.lay  
+lf_likely_accts_$PROCESSING_DATE.dat.gz
+
+</div>
+</template>
